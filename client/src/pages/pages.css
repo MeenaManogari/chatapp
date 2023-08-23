@@ -1,0 +1,121 @@
+.reg_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reg_main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background: linear-gradient(
+    rgba(128, 0, 128, 0.781),
+    rgba(0, 0, 128, 0.644),
+    rgba(238, 130, 238, 0.637)
+  );
+  padding: 20px;
+  width: 40%;
+  height: 300px;
+  box-shadow: 3px 3px 5px rgb(85, 82, 82);
+}
+.reg_main form input {
+  padding: 5px;
+  border-radius: 5px;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+.reg_main form .btn button {
+  color: rebeccapurple;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 30%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn,
+.login_button {
+  text-align: center;
+}
+.login_button .btns {
+  color: white;
+  font-size: 18px;
+}
+.login_button .btns button {
+  color: rgb(22, 5, 39);
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+/*Chat page css*/
+.chat_page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.chat_area {
+  background-color: rgb(248, 189, 248);
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chat_area .txt_msg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 64%;
+  position: fixed;
+  bottom: 0;
+}
+.chat_area .txt_msg > input {
+  height: 35px;
+  padding: 5px;
+  width: 100%;
+  outline: none;
+  background-color: white;
+  border: 2px solid rgb(214, 78, 214);
+}
+.chat_area .txt_msg > button {
+  border: none;
+  background-color: rgba(88, 8, 88, 0.623);
+  padding: 5px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.chat_area .conversations {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  height: 500px;
+}
+.conversations .chat_msgs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.conversations .chat_texts {
+  background-color: paleturquoise;
+  padding: 10px;
+}
+.chat_list {
+  background-color: rgb(243, 215, 243);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+.chat_name {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(247, 247, 247);
+  cursor: pointer;
+}
